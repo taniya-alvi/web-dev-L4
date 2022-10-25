@@ -1,0 +1,146 @@
+.cont{
+    
+    width: 1200px;
+    margin: 0 auto;
+    height: 90vh;
+    background: url(image/d.jpg);
+    
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background: rgb(145, 107, 226)
+    
+
+}
+.logo{
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+.logo h2{
+    float: right;
+}
+.logo img{
+    height: 90px;;
+    width: 60;
+    
+
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+.ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #fbe1e9;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+.menu ul li{
+    display: inline-block;
+ padding-left: 20px;
+
+
+}
+ul li a:hover{
+    color: crimson;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 260ps;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 180px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: antiquewhite;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+    
+    
+.btn{
+    width: 90px;
+    height: 30px;
+    background: rgb(176, 26, 26);
+    border: 2px solid rgb(173, 42, 42);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(254, 24, 78);
+    position: relative;
+    font-size: large;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: rgb(220, 147, 147);
+} 
+
+
+
+
+
