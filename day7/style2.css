@@ -1,0 +1,90 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(233, 57, 57);
+}
+.header{
+    width: 100%;
+    height: 100px;
+    border: 2px solid #171415;
+    background-color: rgb(246, 160, 10);
+}
+.logo{
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+.logo h1{
+    float: right;
+    padding-left: 10px;
+}
+.logo img{
+    height: 80px;;
+    width: 60;
+
+}
+.menu{
+    float: right;
+    line-height: 50px;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #171415;
+    padding-right: 30px;
+    font-size: larger;
+    
+
+
+}
+.menu ul li{
+    display: inline-block;
+    
+    
+ 
+}
+.menu ul li a:hover{
+    /* background: rgb(13, 205, 234); */
+   padding: 20px;
+   color: rgb(232, 45, 8);
+   border: 2px #171415;
+}
+.slider{
+    width: 1200px;
+
+   margin: 0 auto;
+   border: 2px solid black;
+   background: linear-gradient(rgba(231, 59, 59,.9),rgba(15, 54, 15,.11)),url(image/360_F_440037301_xI59ve0rg2gtWdLY8KT93gqJsbfDivcV.jpg);
+   height:  600px;
+   background-size: cover;
+}
+.slider h1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: rgb(73, 49, 58);
+    
+}
+.slider p{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(82, 55, 64);
+   tab-size: 10px;
+    
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: rgb(112, 85, 73);
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(229, 161, 51);
+   border-radius: 20px;
+}
+.slider a:hover{
+    color: rgb(226, 214, 43);
+}
