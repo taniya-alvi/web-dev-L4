@@ -1,0 +1,205 @@
+.cont{
+    
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+    background: rgb(186, 29, 211); 
+
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background: rgb(226, 100, 207);
+    
+
+}
+.logo{
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+.logo h2{
+    float: right;
+    padding-left: 5px;
+}
+.logo img{
+    height: 90px;;
+    width: 60;
+    
+
+
+}
+.menu{
+    float: right;
+    line-height: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #171415;
+    padding-right: 20px;
+    font-size: larger;
+
+}
+.menu ul li{
+    display: inline-block;
+ 
+ 
+}
+.menu ul li a:hover{
+    /* background: rgb(13, 205, 234); */
+   padding: 10px;
+   color: rgb(213, 226, 22);
+}
+.slider{
+    width: 1200px;
+
+   margin: 0 auto;
+   background: linear-gradient(rgba(231, 59, 59,.8),rgba(15, 54, 15,.5)),url(images/media_15617ee4b135795f44794f876642d3ee7ba3717f2.png);
+   height:  600px;
+   background-size: cover;
+}
+.slider h2{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: rgb(17, 0, 166);
+    
+}
+.slider p{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(16, 4, 140);
+   
+    
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: rgb(255, 77, 0);
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(78, 78, 145);
+   border-radius: 30px;
+}
+.slider a:hover{
+    color: rgb(226, 214, 43);
+}
+
+
+.hero{
+    width: 1200px;
+    margin: 40px auto;
+}
+.hero span{
+    color:tomato;
+}
+.title{
+    text-align: center;
+}
+.services-box{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(185px,auto));
+    gap: 5px;
+    text-align: center;
+    height: 300px;
+    /* background: #ccc; */
+}
+.card{
+    background:pink;
+    padding-top: 15px;
+}
+.card p{
+    padding: 30px 10px;
+}
+.card a{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    background: tomato;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.card a:hover{
+    background: rgb(248, 40, 4);
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* margin: 10px 120px; */
+}
+/* Hero Part End */
+
+/* For Responsive Start */
+
+
+@media only screen and (max-width: 600px) {
+    .cont{
+        width: 500px;      
+    }
+    .head{
+        height: 60px; 
+    }
+    .logo{
+        padding: 10px;
+        line-height: 40px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .menu{
+        
+        line-height: 60px;
+    }
+   
+    .menu ul li a{  
+        font-size: 15px;
+    }
+    /* Slider Part Start */
+.slider{
+    width: 500px;
+}
+.slider h1{
+    top: 34%;
+    color: rgb(244, 44, 44);
+ font-size: 18px;
+}
+
+.slider p{
+    
+    top: 40%;
+   
+    color: rgb(82, 5, 246);
+
+}
+.slider a{
+    
+    top: 57%;
+    left: 55%;
+     padding: 5px 10px;
+
+}
+
+/* Slider Part End */
+/* Hero part start*/
+.hero{
+    width: 500px;
+}
+.card{
+    height: 280px;
+}
+/* Hero part end*/
+       
+}
